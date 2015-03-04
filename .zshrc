@@ -13,7 +13,7 @@
  alias ....='cd ../../..'
 
 # cd した先をディレクトリスタックに追加する
- setopt auto_push #cd+<Tab>でスタック履歴を表示
+ setopt auto_pushd #cd+<Tab>でスタック履歴を表示
 
 # pushd したとき、ディレクトリがすでにスタックに含まれていればスタックに追加しない
 setopt pushd_ignore_dups
